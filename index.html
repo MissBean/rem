@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<title>rem例子</title>
+</head>
+<body>
+<div class="container">
+  <header>
+    <a class="icon " href="#">
+      <img src="images/index_02.jpg">
+    </a>
+    <h1>
+      <a href="#">
+        <img src="images/index_03.jpg">
+      </a>
+    </h1>
+    <a class="icon icon-menu" href="#">
+      <img src="images/index_04.jpg">
+    </a>
+  </header>
+  <div class="wrap">
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+          <div class="swiper-slide"><a href="#"><img src="images/sy_02.jpg"></a></div>
+          <div class="swiper-slide"><a href="#"><img src="images/up02.jpg"></a></div>
+          <div class="swiper-slide"><a href="#"><img src="images/up01.jpg"></a></div>
+      </div>
+      <!-- Add Pagination -->
+      <div class="swiper-pagination"></div>
+    </div>
+    <div class="info">
+      <ul class="fl">
+        <li><a href="#"><img src="images/sy_05.jpg"></a></li>
+        <li><a href="#"><img src="images/sy_11.jpg"></a></li>
+        <li><a href="#"><img src="images/sy_15.jpg"></a></li>
+      </ul>
+      <ul class="fr">
+        <li><a href="#"><img src="images/sy_08.jpg"></a></li>
+        <li><a href="#"><img src="images/sy_13.jpg"></a></li>       
+        <li><a href="#"><img src="images/sy_17.jpg"></a></li>
+      </ul>
+    </div>
+  </div>
+  <footer>
+    <div class="footer-nav">
+      <a href="#">联系我们</a>
+      <a href="#">交通指南</a>
+      <a href="#">新闻公告</a>
+      <a href="#">官方微博</a>
+    </div>
+  </footer>
+</div>
+
+  <script type="text/javascript" src="js/zepto.min.js"></script>
+  <script type="text/javascript" src="js/swiper.jquery.min.js"></script>
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true
+    });
+  </script>
+
+
+</body>
+</html>
